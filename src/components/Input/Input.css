@@ -1,0 +1,11 @@
+input{
+    width: 80%;
+    height: 20px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+input[placeholder]{
+    font-size: 0.9rem;
+    color: grey;
+}

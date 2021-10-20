@@ -1,0 +1,23 @@
+.navbar{
+    display: grid;
+    height: 70px;
+    width: 380px;
+}
+.navbar.col2{
+    grid-template-columns: repeat(2, 1fr);
+}
+.navbar.col3{
+    grid-template-columns: repeat(3, 1fr);
+}
+.navbar.col4{
+    grid-template-columns: repeat(4, 1fr);
+}
+.navbar.col5{
+    grid-template-columns: repeat(5, 1fr);
+}
+.navbar.dark{
+    background-color: #2F3033;
+}
+.navbar.light{
+    background-color: #FFF;
+}
